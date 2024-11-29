@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{65F6F092-6619-4064-A6D1-51F137C57E41}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Common", "Common\Common.shproj", "{598E50EE-9BAE-46A8-9C65-7F276286F391}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Common.Config", "Common\Common.Config\Common.Config.shproj", "{B39DE674-737E-4F48-A1F7-A26B7E3D501F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlaceFromInventory", "PlaceFromInventory\PlaceFromInventory.csproj", "{6B51C924-AE04-4429-A880-08C91E6FD975}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		dev|Any CPU = dev|Any CPU
+		publish|Any CPU = publish|Any CPU
+		Release|Any CPU = Release|Any CPU
+		testbuild|Any CPU = testbuild|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B51C924-AE04-4429-A880-08C91E6FD975}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B51C924-AE04-4429-A880-08C91E6FD975}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B51C924-AE04-4429-A880-08C91E6FD975}.dev|Any CPU.ActiveCfg = dev|Any CPU
+		{6B51C924-AE04-4429-A880-08C91E6FD975}.dev|Any CPU.Build.0 = dev|Any CPU
+		{6B51C924-AE04-4429-A880-08C91E6FD975}.publish|Any CPU.ActiveCfg = Release|Any CPU
+		{6B51C924-AE04-4429-A880-08C91E6FD975}.publish|Any CPU.Build.0 = Release|Any CPU
+		{6B51C924-AE04-4429-A880-08C91E6FD975}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B51C924-AE04-4429-A880-08C91E6FD975}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B51C924-AE04-4429-A880-08C91E6FD975}.testbuild|Any CPU.ActiveCfg = testbuild|Any CPU
+		{6B51C924-AE04-4429-A880-08C91E6FD975}.testbuild|Any CPU.Build.0 = testbuild|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{598E50EE-9BAE-46A8-9C65-7F276286F391} = {65F6F092-6619-4064-A6D1-51F137C57E41}
+		{B39DE674-737E-4F48-A1F7-A26B7E3D501F} = {65F6F092-6619-4064-A6D1-51F137C57E41}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C14B4D75-5F94-45C7-AA7F-9C13CC209522}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Common\Common.projitems*{598e50ee-9bae-46a8-9c65-7f276286f391}*SharedItemsImports = 13
+		Common\Common.Config\Common.Config.projitems*{6b51c924-ae04-4429-a880-08c91e6fd975}*SharedItemsImports = 5
+		Common\Common.projitems*{6b51c924-ae04-4429-a880-08c91e6fd975}*SharedItemsImports = 5
+		Common\Common.Config\Common.Config.projitems*{b39de674-737e-4f48-a1f7-a26b7e3d501f}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal

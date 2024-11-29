@@ -1,0 +1,91 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyTitle>PlaceFromInventory</AssemblyTitle>
+    <Product>PlaceFromInventory</Product>
+    <Copyright>© 2021 zorgesho</Copyright>
+    <FileVersion>1.1.2</FileVersion>
+    <AssemblyVersion>1.1.2</AssemblyVersion>
+    <Version>1.1.2</Version>
+    <PackageReleaseNotes>reactivated for current Game Version</PackageReleaseNotes>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="STBlade.Modding.TLD.Il2CppAssemblies.Windows" Version="2.32.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>F:\Steam\steamapps\common\TheLongDark\MelonLoader\net6\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>F:\Steam\steamapps\common\TheLongDark\MelonLoader\Il2CppAssemblies\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2Cppmscorlib">
+      <HintPath>F:\Steam\steamapps\common\TheLongDark\MelonLoader\Il2CppAssemblies\Il2Cppmscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppSystem">
+      <HintPath>F:\Steam\steamapps\common\TheLongDark\MelonLoader\Il2CppAssemblies\Il2CppSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppTLD.Addressables">
+      <HintPath>F:\Steam\steamapps\common\TheLongDark\MelonLoader\Il2CppAssemblies\Il2CppTLD.Addressables.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppTLD.Encryption">
+      <HintPath>F:\Steam\steamapps\common\TheLongDark\MelonLoader\Il2CppAssemblies\Il2CppTLD.Encryption.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppTLD.Game.Events.Runtime">
+      <HintPath>F:\Steam\steamapps\common\TheLongDark\MelonLoader\Il2CppAssemblies\Il2CppTLD.Game.Events.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppTLD.GameplayTag">
+      <HintPath>F:\Steam\steamapps\common\TheLongDark\MelonLoader\Il2CppAssemblies\Il2CppTLD.GameplayTag.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppTLD.IO">
+      <HintPath>F:\Steam\steamapps\common\TheLongDark\MelonLoader\Il2CppAssemblies\Il2CppTLD.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppTLD.Logging">
+      <HintPath>F:\Steam\steamapps\common\TheLongDark\MelonLoader\Il2CppAssemblies\Il2CppTLD.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppTLD.OptionalContent">
+      <HintPath>F:\Steam\steamapps\common\TheLongDark\MelonLoader\Il2CppAssemblies\Il2CppTLD.OptionalContent.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppTLD.PDID">
+      <HintPath>F:\Steam\steamapps\common\TheLongDark\MelonLoader\Il2CppAssemblies\Il2CppTLD.PDID.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppTLD.Platform">
+      <HintPath>F:\Steam\steamapps\common\TheLongDark\MelonLoader\Il2CppAssemblies\Il2CppTLD.Platform.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppTLD.Profiling">
+      <HintPath>F:\Steam\steamapps\common\TheLongDark\MelonLoader\Il2CppAssemblies\Il2CppTLD.Profiling.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppTLD.RuntimeTest">
+      <HintPath>F:\Steam\steamapps\common\TheLongDark\MelonLoader\Il2CppAssemblies\Il2CppTLD.RuntimeTest.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppTLD.SaveState">
+      <HintPath>F:\Steam\steamapps\common\TheLongDark\MelonLoader\Il2CppAssemblies\Il2CppTLD.SaveState.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppTLD.Serialization">
+      <HintPath>F:\Steam\steamapps\common\TheLongDark\MelonLoader\Il2CppAssemblies\Il2CppTLD.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppTLD.Stats">
+      <HintPath>F:\Steam\steamapps\common\TheLongDark\MelonLoader\Il2CppAssemblies\Il2CppTLD.Stats.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppTLD.TimeLib">
+      <HintPath>F:\Steam\steamapps\common\TheLongDark\MelonLoader\Il2CppAssemblies\Il2CppTLD.TimeLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppTLD.Trial">
+      <HintPath>F:\Steam\steamapps\common\TheLongDark\MelonLoader\Il2CppAssemblies\Il2CppTLD.Trial.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppTLD.UserGeneratedContent">
+      <HintPath>F:\Steam\steamapps\common\TheLongDark\MelonLoader\Il2CppAssemblies\Il2CppTLD.UserGeneratedContent.dll</HintPath>
+    </Reference>
+    <Reference Include="MelonLoader">
+      <HintPath>F:\Steam\steamapps\common\TheLongDark\MelonLoader\net6\MelonLoader.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>F:\Steam\steamapps\common\TheLongDark\MelonLoader\Il2CppAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <Import Project="..\Common\Common.projitems" Label="Shared" />
+  <Import Project="..\Common\Common.Config\Common.Config.projitems" Label="Shared" />
+</Project>
