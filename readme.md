@@ -1,22 +1,20 @@
-# TheLongDarkMods
-My mods for The Long Dark
+# Place From Inventory
 
-Mod | Description | Nexus Mods
--|-|:-:
-| [**CookWhileFishing**](https://github.com/zorgesho/TheLongDarkMods/tree/master/CookWhileFishing#readme) | This mod allows to cook the catched fish automatically without interruption of the fishing | [12](https://www.nexusmods.com/thelongdark/mods/12)|
-| [**ExtraHotkeys**](https://github.com/zorgesho/TheLongDarkMods/tree/master/ExtraHotkeys#readme) | This mod adds additional hotkeys for equipping gear items | [11](https://www.nexusmods.com/thelongdark/mods/11)|
-| [**MovableContainers**](https://github.com/zorgesho/TheLongDarkMods/tree/master/MovableContainers#readme) | This mod allows to move some types of containers (inside one location and between locations) | [09](https://www.nexusmods.com/thelongdark/mods/9)|
-| [**PlaceFromInventory**](https://github.com/zorgesho/TheLongDarkMods/tree/master/PlaceFromInventory#readme) | This mod allows to place items right from the inventory screen with a right mouse click. Also, it places any stackable items as one item (as stack). | [10](https://www.nexusmods.com/thelongdark/mods/10)|
-| [**SaveAnywhere**](https://github.com/zorgesho/TheLongDarkMods/tree/master/SaveAnywhere#readme) | This mod allows to save and load anywhere in the survival mode like in the story mode. Also, it can disable permadeath. | [08](https://www.nexusmods.com/thelongdark/mods/8)|
-| [**SkipIntro**](https://github.com/zorgesho/TheLongDarkMods/tree/master/SkipIntro) | This mod allows to skip disclaimer and intros | [13](https://www.nexusmods.com/thelongdark/mods/13)|
+This mod allows to place items right from the inventory screen with a right mouse click. Also, it places any stackable items as one item (as stack).
 
-<details><summary>github download stats</summary>
+---
+Now you can press the right mouse button on any item in the inventory (**except water**) and switch to item placing mode. If you press the button on a stack of items then **entire stack will be placed as one item**. You can see the number of items in the stack by hovering crosshair over it.
 
-Mod | Downloads
--|-
-| [**CookWhileFishing**](https://github.com/zorgesho/TheLongDarkMods/tree/master/CookWhileFishing)|[![](https://img.shields.io/github/downloads/zorgesho/TheLongDarkMods/CWF-v1.0.0/total.svg)](https://github.com/zorgesho/TheLongDarkMods/releases/tag/CWF-v1.0.0)|
-| [**ExtraHotkeys**](https://github.com/zorgesho/TheLongDarkMods/tree/master/ExtraHotkeys)|[![](https://img.shields.io/github/downloads/zorgesho/TheLongDarkMods/EH-v1.0.0/total.svg)](https://github.com/zorgesho/TheLongDarkMods/releases/tag/EH-v1.0.0)<br/>[![](https://img.shields.io/github/downloads/zorgesho/TheLongDarkMods/EH-v1.1.0/total.svg)](https://github.com/zorgesho/TheLongDarkMods/releases/tag/EH-v1.1.0)<br/>[![](https://img.shields.io/github/downloads/zorgesho/TheLongDarkMods/EH-v1.2.0/total.svg)](https://github.com/zorgesho/TheLongDarkMods/releases/tag/EH-v1.2.0)|
-| [**MovableContainers**](https://github.com/zorgesho/TheLongDarkMods/tree/master/MovableContainers)|[![](https://img.shields.io/github/downloads/zorgesho/TheLongDarkMods/MC-v1.0.0/total.svg)](https://github.com/zorgesho/TheLongDarkMods/releases/tag/MC-v1.0.0)<br/>[![](https://img.shields.io/github/downloads/zorgesho/TheLongDarkMods/MC-v1.1.0/total.svg)](https://github.com/zorgesho/TheLongDarkMods/releases/tag/MC-v1.1.0)<br/>[![](https://img.shields.io/github/downloads/zorgesho/TheLongDarkMods/MC-v1.2.0/total.svg)](https://github.com/zorgesho/TheLongDarkMods/releases/tag/MC-v1.2.0)<br/>[![](https://img.shields.io/github/downloads/zorgesho/TheLongDarkMods/MC-v1.2.1/total.svg)](https://github.com/zorgesho/TheLongDarkMods/releases/tag/MC-v1.2.1)|
-| [**PlaceFromInventory**](https://github.com/zorgesho/TheLongDarkMods/tree/master/PlaceFromInventory)|[![](https://img.shields.io/github/downloads/zorgesho/TheLongDarkMods/PFI-v1.0.0/total.svg)](https://github.com/zorgesho/TheLongDarkMods/releases/tag/PFI-v1.0.0)<br/>[![](https://img.shields.io/github/downloads/zorgesho/TheLongDarkMods/PFI-v1.1.0/total.svg)](https://github.com/zorgesho/TheLongDarkMods/releases/tag/PFI-v1.1.0)<br/>[![](https://img.shields.io/github/downloads/zorgesho/TheLongDarkMods/PFI-v1.1.1/total.svg)](https://github.com/zorgesho/TheLongDarkMods/releases/tag/PFI-v1.1.1)|
-| [**SaveAnywhere**](https://github.com/zorgesho/TheLongDarkMods/tree/master/SaveAnywhere)|[![](https://img.shields.io/github/downloads/zorgesho/TheLongDarkMods/SA-v1.0.0/total.svg)](https://github.com/zorgesho/TheLongDarkMods/releases/tag/SA-v1.0.0)<br/>[![](https://img.shields.io/github/downloads/zorgesho/TheLongDarkMods/SA-v1.1.0/total.svg)](https://github.com/zorgesho/TheLongDarkMods/releases/tag/SA-v1.1.0)<br/>[![](https://img.shields.io/github/downloads/zorgesho/TheLongDarkMods/SA-v1.2.0/total.svg)](https://github.com/zorgesho/TheLongDarkMods/releases/tag/SA-v1.2.0)<br/>[![](https://img.shields.io/github/downloads/zorgesho/TheLongDarkMods/SA-v1.2.1/total.svg)](https://github.com/zorgesho/TheLongDarkMods/releases/tag/SA-v1.2.1)<br/>[![](https://img.shields.io/github/downloads/zorgesho/TheLongDarkMods/SA-v1.3.0/total.svg)](https://github.com/zorgesho/TheLongDarkMods/releases/tag/SA-v1.3.0)|
-</details>
+Also, you can press the right mouse button on any clothing slot in the clothing panel to drop & place cloth item in that slot.
+
+After exiting from the placing mode you'll be returned to the inventory/clothing panel.
+
+Also, you can drop & place specified number of items as stack by holding _Control_ in the drop items panel.
+
+**Warning**: avoid to drop multiple fresh saplings, guts or pelts as stack because if they become cured in that state then **entire stack will be turned into a single item**. Cured items can be dropped as stack safely.
+
+![merged](https://user-images.githubusercontent.com/53096970/115384412-aef4f480-a1df-11eb-91c8-168bfef71e94.jpg)
+
+---
+This mod require [MelonLoader](https://github.com/LavaGang/MelonLoader/releases) to work.
+This is a copy out of Zorgesho Long Dark Mods https://github.com/zorgesho/TheLongDarkMods, I only made it usable for the current game version. All credits go to Zorgesho for his work.
