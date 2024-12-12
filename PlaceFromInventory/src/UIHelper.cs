@@ -1,11 +1,10 @@
 ﻿using UnityEngine;
 using Common;
 using Il2Cpp;
-using HarmonyLib;
 
 namespace PlaceFromInventory
 {
-	static class UIHelper
+    static class UIHelper
 	{
 		static bool backToInvPanel = false;
 		static bool backToClothPanel = false;
